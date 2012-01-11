@@ -6,7 +6,7 @@ The requirements for building should be
     - sbt 0.7.x (been tested with 0.7.4)
     - ruby/rubygem (for 'bundle install')
 
-This update project uses updated jars/plugins for Finagle, standard-project, and sbt-thrift.
+This updated project uses updated jars/plugins for Finagle, standard-project, and sbt-thrift.
 
 Scrooge, a thrift/scala compiler has been added to project.  It contains some different syntax for 
 the Finagle Client/Services; the changes are demonstrated in this project's Client.scala file. 
