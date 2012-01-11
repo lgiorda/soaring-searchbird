@@ -1,0 +1,14 @@
+This is an updated version of the distributed search twitter/searchbird project created by the twitter/scala-bootstrapper project. It is a thrift-based Finagle service that compiles a thrift source file
+into Ruby, Java, and Scala codes.
+
+The requirements for building should be 
+    - sbt 0.7.x (been tested with 0.7.4)
+    - ruby/rubygem (for 'bundle install')
+
+This update project uses updated jars/plugins for Finagle, standard-project, and sbt-thrift.
+
+Scrooge, a thrift/scala compiler has been added to project.  It contains some different syntax for 
+the Finagle Client/Services; the changes are demonstrated in this project's Client.scala file. 
+
+More changes to come...
+
